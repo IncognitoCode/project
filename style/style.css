@@ -21,12 +21,14 @@
     opacity: 0.5;
     top: 0;
     left: 0;
+    display: none;
 }
 #big{
     width: 500px;
     height: 500px;
     margin: 50px auto;
     background: #000000;
+    display: none;
 }
 #img1{background: url("../images/1.jpg") }
 #img1{background: url("../images/2.jpg") }
