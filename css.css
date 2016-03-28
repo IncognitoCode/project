@@ -6,3 +6,8 @@ body{
     height: 100px;
     background: #000;
 }
+#cls{
+    background-color: #a0ff60;
+    height: 20px;
+    width: 20px;
+}
