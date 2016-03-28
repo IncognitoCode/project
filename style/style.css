@@ -21,10 +21,12 @@
     opacity: 0.5;
     top: 0;
     left: 0;
+    display: none;
 }
 #big{
     width: 500px;
     height: 500px;
     margin: 50px auto;
     background: #000000;
+    display: none;
 }
