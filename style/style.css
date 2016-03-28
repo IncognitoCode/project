@@ -8,6 +8,7 @@
     height: 250px;
     background-color: #9aff09;
     margin: 25px;
+    cursor: pointer;
 }
 *{
     margin: 0;
@@ -22,7 +23,7 @@
     top: 0;
     left: 0;
     display: none;
-
+    cursor: pointer;
 }
 #big{
     width: 500px;
@@ -33,6 +34,8 @@
     top: 50px;
     left: 425px;
     box-shadow: 0 0 10px #fff;
+    transition: 0.8s all ease-in-out;
+    cursor: pointer;
 }
 #img1{background: url("../images/1.jpg"); background-size: 100%}
 #img2{background: url("../images/2.jpg"); background-size: 100%}
