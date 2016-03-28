@@ -1,0 +1,11 @@
+#container{
+    width: 900px;
+    margin: auto;
+}
+.block{
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: #9aff09;
+    margin: 25px;
+}
