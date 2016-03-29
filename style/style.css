@@ -6,13 +6,14 @@
     float: left;
     width: 250px;
     height: 250px;
-    background-color: #9aff09;
     margin: 25px;
     cursor: pointer;
+
 }
 *{
     margin: 0;
     padding: 0;
+    background: rgba(5, 15, 6, 0.38);
 }
 #shadow{
     width: 100%;
