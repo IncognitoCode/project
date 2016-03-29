@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clr{
+	clear: both;
+}
+#editable, #editButt, #newDevice, #newDeviceButtons{
+	display: none;
+}
+#header{
+	height: 50px;
+	width: 100%;
+}
+#logo{
+	height: 100%;
+	width: 15%;
+	float: left;
+	border: 1px solid black;
+}
+a.headerButtons{
+	float: right;
+	display: block;
+	line-height: 50px;
+	text-decoration: none;
+	padding: 0 1%;
+	font-size: 100%;
+}
+#subHeader{
+	height: 20px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+}
+#subHeader p{
+	float: left;
+	margin-left: 0.5%;
+}
+#subHeader h6{
+	float: right;
+	font-size: 14px;
+	margin-right: 0.5%;
+}
+#subHeader a{
+	float: right;
+	font-weight: normal;
+	text-decoration: none;
+}
+#navigation{
+	height: 40px;
+	width: 100%;
+}
+#navigation ul{
+	list-style: none;
+}
+#navigation ul li a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 2%;
+}
+#tableWrap{
+	margin-top: 25px;
+}
+#tableHeader h1{
+	float: left;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 5px 14px;
+	font-size: 100%;
+	text-align: center;
+}
+.tableRow h2{
+	float: left;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 5px 14px;
+	font-size: 90%;
+	text-align: center;
+	font-weight: normal;
+}
+#tableHeader h1:first-child, .tableRow h2:first-child{
+	border-left: 1px solid #000;
+}
+#table{
+	margin: auto;
+	width: 786px;
+}
+.hr{
+	width: 100%;
+	height: 1px;
+}
+#bottomButtons{
+	width: 352px;
+	margin: auto;
+	margin-top: 50px;
+}
+a.button{
+	display: block;
+	text-decoration: none;
+	float: left;
+	line-height: 35px;
+	font-size: 20px;
+	padding: 0 15px;
+}
+input[name='check']{
+	width: 18px;
+	height: 18px;
+}
