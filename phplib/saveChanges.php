@@ -2,8 +2,7 @@
 if (isset($_POST['id']) && $_POST['id'] != null &&
 	isset($_POST['name']) && $_POST['name'] != null &&
 	isset($_POST['ip']) && $_POST['ip'] != null &&
-	isset($_POST['port']) && $_POST['port'] != null &&
-	isset($_POST['status']) && $_POST['status'] != null){
+	isset($_POST['port']) && $_POST['port'] != null){
 
 	require_once('connect.php');
 
@@ -11,9 +10,8 @@ if (isset($_POST['id']) && $_POST['id'] != null &&
 	$name = $_POST['name'];
 	$ip = $_POST['ip'];
 	$port = $_POST['port'];
-	$status = $_POST['status'];
 
-	$sql = "UPDATE `devices` SET `name` = '$name', `ip` = '$ip', `port` = '$port', `status` = '$status' WHERE `id` = $id";
+	$sql = "UPDATE `devices` SET `name` = '$name', `ip` = '$ip', `port` = '$port' WHERE `id` = $id";
 	mysql_query($sql);
 
 }

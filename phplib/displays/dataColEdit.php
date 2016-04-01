@@ -6,7 +6,6 @@ while($row = mysql_fetch_array($res)){
     $name = $row['name'];
     $desc = $row['desc'];
     $value = $row['value'];
-
     echo "
 		<div class='tableRow'>
 			<h2 style='width: 20px'>
@@ -21,9 +20,7 @@ while($row = mysql_fetch_array($res)){
 			<h2 style='width: 130px'>
 				<input style='width: 130px' name='check' type='checkbox'/>
 			</h2>
-			<h2 style='width: 110px'>
-				<input style='width: 110px' type='text' name='tableValue' value='$value'>
-			</h2>
+			<h2 style='width: 110px'>$value</h2>
 		</div>
 		<div class='clr'></div>
 	";
