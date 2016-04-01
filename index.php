@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Devices</title>
+<title>Connected Devices</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <script src="js/jquery.js"></script>
