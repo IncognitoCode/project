@@ -2,7 +2,6 @@
 if (isset($_POST['id']) && $_POST['id'] != null &&
 	isset($_POST['name']) && $_POST['name'] != null &&
 	isset($_POST['ip']) && $_POST['ip'] != null &&
-	isset($_POST['subnet']) && $_POST['subnet'] != null &&
 	isset($_POST['port']) && $_POST['port'] != null &&
 	isset($_POST['status']) && $_POST['status'] != null){
 
@@ -11,11 +10,10 @@ if (isset($_POST['id']) && $_POST['id'] != null &&
 	$id = $_POST['id'];
 	$name = $_POST['name'];
 	$ip = $_POST['ip'];
-	$subnet = $_POST['subnet'];
 	$port = $_POST['port'];
 	$status = $_POST['status'];
 
-	$sql = "UPDATE `devices` SET `name` = '$name', `ip` = '$ip', `subnet` = '$subnet', `port` = '$port', `status` = '$status' WHERE `id` = $id";
+	$sql = "UPDATE `devices` SET `name` = '$name', `ip` = '$ip', `port` = '$port', `status` = '$status' WHERE `id` = $id";
 	mysql_query($sql);
 
 }

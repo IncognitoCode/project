@@ -17,9 +17,6 @@ function update(){
 				case 'ip':
 					$("h2#ip"+id).text(value);
 					break;
-				case 'subnet':
-					$("h2#subnet"+id).text(value);
-					break;
 				case 'port':
 					$("h2#port"+id).text(value);
 					break;

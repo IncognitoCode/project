@@ -26,8 +26,8 @@
 		<li><a href="index.php">Connected Devices</a></li>
 		<li><a href="tag.php">Tag Database</a></li>
 		<li><a href="datacol.php">Data Collection</a></li>
-		<li><a href="">Web Views</a></li>
-		<li><a href="">Alarms</a></li>
+		<!--<li><a href="">Web Views</a></li>
+		<li><a href="">Alarms</a></li>!-->
 	</ul>
 </div>
 

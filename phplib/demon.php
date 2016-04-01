@@ -12,7 +12,7 @@ $random2 = rand(0, 5);
 
 if($random1 == $random2){
 	$id = rand(1, $devicesCount);
-	$column = rand(1, 8);
+	$column = rand(1, 7);
 
 	switch ($column){
 		case 1: 
@@ -29,14 +29,7 @@ if($random1 == $random2){
 			$json = array("upd" => "ip", "id" => $id, "col" => $column, "values" => 2, "value1" => $value1, "value2" => $value2);
 			echo json_encode($json);
 			break;
-		case 3: 
-			$value1 = rand(0, 255);
-			$value2 = rand(0, 255);
-			$sql = "UPDATE devices SET subnet = '192.168.$value1.$value2' WHERE id = '$id'";
-			$json = array("upd" => "subnet", "id" => $id, "col" => $column, "values" => 2, "value1" => $value1, "value2" => $value2);
-			echo json_encode($json);
-			break;
-		case 4:
+		case 3:
 			$value = rand(1, 2);
 			if($value == 1) $value = "ModbusTCP";
 			else $value = "HTTP";
@@ -44,13 +37,13 @@ if($random1 == $random2){
 			$json = array("upd" => "protocol", "id" => $id, "col" => $column, "values" => 1, "value" => $value);
 			echo json_encode($json);
 			break;
-		case 5:
+		case 4:
 			$value = rand(100, 999); 
 			$sql = "UPDATE devices SET port = '$value' WHERE id = '$id'";
 			$json = array("upd" => "port", "id" => $id, "col" => $column, "values" => 1, "value" => $value);
 			echo json_encode($json);
 			break;
-		case 6: 
+		case 5: 
 			$value = rand(0, 1);
 			$sql = "UPDATE devices SET enable = '$value' WHERE id = '$id'";
 			$status = mysql_query("SELECT status FROM devices WHERE id = '$id'");
@@ -59,7 +52,7 @@ if($random1 == $random2){
 			$json = array("upd" => "enable", "id" => $id, "col" => $column, "values" => 1, "value" => $value, "status" => $status);
 			echo json_encode($json);
 			break;
-		case 7: 
+		case 6: 
 			$value = rand(1, 2);
 			if($value == 1) $value = "Online";
 			else if($value == 2) $value = "Offline";;
