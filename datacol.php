@@ -25,7 +25,7 @@
 
 <div id="navigation">
 	<ul>
-		<li><a href="index.php">Connected Devices</a></li>
+		<li><a href="condev.php">Connected Devices</a></li>
 		<li><a href="tag.php">Tag Database</a></li>
 		<li><a href="datacol.php">Data Collection</a></li>
 		<!--<li><a href="">Web Views</a></li>

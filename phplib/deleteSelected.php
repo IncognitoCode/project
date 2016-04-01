@@ -17,7 +17,7 @@ if(isset($_GET['isDelete']) && $_GET['isDelete'] == true){
 	}
 	$sql = "DELETE FROM todelete";
 	mysql_query($sql);
-	echo "<script>document.location.href='../index.php'</script>";
+	echo "<script>document.location.href='../condev.php'</script>";
 	exit();
 }
 
