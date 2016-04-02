@@ -108,3 +108,28 @@ input[name='check']{
 	width: 18px;
 	height: 18px;
 }
+#wrapper{
+	width: 900px;
+	margin: auto;
+}
+#wrapperlog{
+	width: 150px;
+	margin: auto;
+}
+#wrappersub{
+	width: 10px;
+	margin: auto;
+}
+input[name='pass']{
+	margin-top: 20px;
+}
+input[name='sbm']{
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+#onver{
+	width: 600px;
+	margin: auto;
+	margin-top: 20px;
+}
