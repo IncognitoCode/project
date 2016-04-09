@@ -1,14 +1,23 @@
 <html>
-    <title>Main</title>
+    <title>Start Main</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <script>
         function check() {
-            var arr = document.getElementsByName("login");
-            if (arr[0].value == "")
+            var arrlo = document.getElementsByName("login");
+            var arrpa = document.getElementsByName("pass");
+            if (arrlo[0].value == "" && arrpa[0].value == ""){
+                alert("Ведіть пароль і логін")
                 return false;
-            arr = document.getElementsByName("pass");
-            if (arr[0].value == "")
+            }
+            if (arrlo[0].value == ""){
+                alert("Введіть логін")
                 return false;
+            }
+            arrpa = document.getElementsByName("pass");
+            if (arrpa[0].value == ""){
+                alert("Введіть пароль")
+                return false;
+            }
             return true;
         }
     </script>
@@ -19,15 +28,8 @@
         <div class="clr"></div>
         <div id="subHeader">
             <p>01:23:45:67:89:AB &nbsp; &nbsp; &nbsp; IP: 192.168.1.12</p>
-        </div><br/>
+        </div>
         <div id="wrapper">
-            <form name="form" action="" method="post" onsubmit="return check()">
-            <div id="wrapperlog">
-                <input type="text" name="login" placeholder="Логін"/><br/>
-                <input type="password" name="pass" placeholder="Пароль"/><br/>
-                <input type="submit" name="sbm" value="Вхід"/>
-            </div>
-            </form>
             <div id="onver">
                 <div id="tableHeader">
                     <h1 style="width: 20px">#</h1>
@@ -86,7 +88,14 @@
                     <h2 style="width: 110px">Online</h2>
                 </div>
                 <div class="clr"></div>
-        </div>
+        </div><br/>
+            <form name="form" method="post" onsubmit="return check()">
+                <div id="wrapperlog">
+                    <input type="text" name="login" placeholder="Логін"/><br/>
+                    <input type="password" name="pass" placeholder="Пароль"/><br/>
+                    <input type="submit" name="sbm" value="Вхід"/>
+                </div>
+            </form>
         
     </body>
 </html>
