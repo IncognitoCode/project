@@ -11,7 +11,7 @@
 	<body>
 		<div id="header">
 			<div id="logo"></div>
-			<a class="headerButtons" href="">Device Settings</a>
+			<a class="headerButtons" href="settings.php">Device Settings</a>
 			<a class="headerButtons" href="">App Configurations</a>
 		</div>
 		<div class="clr"></div>
@@ -32,12 +32,12 @@
 			<div id="table">
 				<div id="tableHeader">
 					<h1 style="width: 20px">#</h1>
-					<h1 style="width: 90px">Name</h1>	
+					<h1 style="width: 90px">Name</h1>
 					<h1 style="width: 90px">IP Adress</h1>
-					<h1 style="width: 110px">Protocol</h1>	
-					<h1 style="width: 30px">Port</h1>	
-					<h1 style="width: 40px">Enable</h1>	
-					<h1 style="width: 60px">Status</h1>	
+					<h1 style="width: 110px">Protocol</h1>
+					<h1 style="width: 30px">Port</h1>
+					<h1 style="width: 40px">Enable</h1>
+					<h1 style="width: 60px">Status</h1>
 				</div>
 				<div class="clr"></div>
 				<div id="mainTbl">

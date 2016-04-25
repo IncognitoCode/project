@@ -10,7 +10,7 @@
 	<body>
 		<div id="header">
 			<div id="logo"></div>
-			<a class="headerButtons" href="">Device Settings</a>
+			<a class="headerButtons" href="settings.php">Device Settings</a>
 			<a class="headerButtons" href="">App Configurations</a>
 		</div>
 		<div class="clr"></div>

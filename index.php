@@ -1,26 +1,28 @@
 <html>
-    <title>Start Main</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <script>
-        function check() {
-            var arrlo = document.getElementsByName("login");
-            var arrpa = document.getElementsByName("pass");
-            if (arrlo[0].value == "" && arrpa[0].value == ""){
-                alert("Ведіть пароль і логін")
-                return false;
+    <head>
+        <title>Start Main</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <script>
+            function check() {
+                var arrlo = document.getElementsByName("login");
+                var arrpa = document.getElementsByName("pass");
+                if (arrlo[0].value == "" && arrpa[0].value == ""){
+                    alert("Ведіть пароль і логін")
+                    return false;
+                }
+                if (arrlo[0].value == ""){
+                    alert("Введіть логін")
+                    return false;
+                }
+                arrpa = document.getElementsByName("pass");
+                if (arrpa[0].value == ""){
+                    alert("Введіть пароль")
+                    return false;
+                }
+                return true;
             }
-            if (arrlo[0].value == ""){
-                alert("Введіть логін")
-                return false;
-            }
-            arrpa = document.getElementsByName("pass");
-            if (arrpa[0].value == ""){
-                alert("Введіть пароль")
-                return false;
-            }
-            return true;
-        }
-    </script>
+        </script>
+    </head>
     <body>
         <div id="header">
             <div id="logo"></div>
