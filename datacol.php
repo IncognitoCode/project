@@ -26,7 +26,7 @@
 				<li><a href="datacol.php">Data Collection</a></li>
 			</ul>
 		</div>
-		<div id="tableWrap" style="height: 227px">
+		<div id="tableWrap" style="height: 164px">
 			<div id="table">
 				<div id="tableHeader">
 					<h1 style="width: 20px">#</h1>

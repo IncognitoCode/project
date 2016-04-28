@@ -1,6 +1,9 @@
-* {
+*{
 	padding: 0;
 	margin: 0;
+}
+body{
+	background: rgba(244, 255, 199, 0.73);
 }
 .clr{
 	clear: both;
@@ -17,14 +20,18 @@
 	width: 15%;
 	float: left;
 	border: 1px solid black;
+	background: rgba(180, 181, 89, 0.73);
 }
 a.headerButtons{
 	float: right;
 	display: block;
 	line-height: 50px;
 	text-decoration: none;
-	padding: 0 1%;
+	padding: 0 2%;
 	font-size: 100%;
+	background: rgba(47, 31, 255, 0.73);
+	color: aliceblue;
+	border-radius: 10px;
 }
 #subHeader{
 	height: 20px;
@@ -32,7 +39,7 @@ a.headerButtons{
 	font-size: 14px;
 	line-height: 20px;
 	margin-top: 10px;
-	border: 2px solid yellowgreen;
+	border-top: 1px solid rgba(58, 32, 47, 0.73);
 }
 #subHeader p{
 	float: left;
@@ -49,43 +56,54 @@ a.headerButtons{
 	text-decoration: none;
 }
 #navigation{
+	margin-top: 20px;
 	height: 40px;
-	width: 100%;
+	width: 80%;
 }
 #navigation ul{
 	list-style: none;
 }
-#navigation ul li a{
+#navigation ul li a:link{
 	float: left;
 	display: block;
 	text-decoration: none;
 	line-height: 40px;
-	padding: 0 10%;
+	padding: 0% 10%;
+	border: 1px solid rgba(82, 122, 255, 0.73);
+	margin-left: 20px;
+	border-radius: 20px;
+	background: rgba(205, 255, 220, 0.73);
+}
+#navigation ul li a:hover{
+	float: left;
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0% 10%;
+	border: 1px solid rgba(82, 122, 255, 0.73);
+	margin-left: 20px;
+	border-radius: 20px;
+	background: rgba(89, 2, 23, 0.63);
 }
 #tableWrap{
 	margin: auto;
-	width: 658px;
-	margin-top: 20px;
+	margin-top: 40px;
+	width: 800px;
 }
 #tableHeader h1{
 	float: left;
-	border-right: 1px solid #000;
-	border-top: 1px solid #000;
 	padding: 10px 15px;
 	font-size: 100%;
 	text-align: center;
 }
 .tableRow h2{
 	float: left;
-	border-right: 1px solid #000;
-	border-top: 1px solid #000;
 	padding: 10px 15px;
 	font-size: 90%;
 	text-align: center;
 	font-weight: normal;
+	border-top: 1px solid rgba(88, 89, 67, 0.63);
 }
-#tableHeader h1:first-child, .tableRow h2:first-child{
-	border-left: 1px solid #000;
 }
 #table{
 	margin: auto;
@@ -96,9 +114,9 @@ a.headerButtons{
 	height: 1px;
 }
 #bottomButtons{
-	width: 352px;
+	width: 430px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 a.button{
 	display: block;
@@ -107,6 +125,10 @@ a.button{
 	line-height: 35px;
 	font-size: 20px;
 	padding: 0 15px;
+	border: 1px solid black;
+	margin-left: 20px;
+	background: rgba(16, 20, 89, 0.63);
+	border-radius: 50px;
 }
 input[name='check']{
 	width: 18px;
@@ -119,6 +141,9 @@ input[name='check']{
 #wrapperlog{
 	width: 150px;
 	margin: auto;
+}
+#wrapperlog a{
+	display: none;
 }
 #wrappersub{
 	width: 10px;
@@ -146,4 +171,16 @@ input[name='sbm']{
 	margin-left: 20px;
 	border: 2px solid rgba(138, 21, 80, 0.44);
 	background: rgba(59, 110, 127, 0.44)
+}
+#editButt{
+	margin: auto;
+	width: 800px;
+}
+#editButtons{
+	margin: auto;
+	width: 600px;
+	margin-top: 20px;
+}
+#editButtons a{
+	margin: auto;
 }

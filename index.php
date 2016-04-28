@@ -4,22 +4,23 @@
         <link href="css/style.css" type="text/css" rel="stylesheet">
         <script>
             function check() {
-                var arrlo = document.getElementsByName("login");
-                var arrpa = document.getElementsByName("pass");
-                if (arrlo[0].value == "" && arrpa[0].value == ""){
-                    alert("Ведіть пароль і логін")
-                    return false;
+                var l = "1111";
+                var p = "2222";
+                var arrlog = document.getElementsByName("login");
+                var arrpas = document.getElementsByName("pass");
+                if (arrlog[0].value == l && arrpas[0].value == p){
+                    alert("Все правильно")
+                    return true;
                 }
-                if (arrlo[0].value == ""){
+                if (arrlog[0].value == ""){
                     alert("Введіть логін")
                     return false;
                 }
                 arrpa = document.getElementsByName("pass");
-                if (arrpa[0].value == ""){
+                if (arrpas[0].value == ""){
                     alert("Введіть пароль")
                     return false;
                 }
-                return true;
             }
         </script>
     </head>
@@ -91,11 +92,11 @@
                 </div>
                 <div class="clr"></div>
         </div><br/>
-            <form name="form" method="post" onsubmit="return check()">
+            <form name="form" method="post">
                 <div id="wrapperlog">
                     <input type="text" name="login" placeholder="Логін"/><br/>
                     <input type="password" name="pass" placeholder="Пароль"/><br/>
-                    <input type="submit" name="sbm" value="Вхід"/>
+                    <input type="submit" name="sbm" value="Вхід" onclick="check()"/>
                 </div>
             </form>
         
