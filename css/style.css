@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-	background: rgba(244, 255, 199, 0.73);
+	background: rgba(254, 253, 253, 0.67)
 }
 .clr{
 	clear: both;
@@ -20,7 +20,7 @@ body{
 	width: 15%;
 	float: left;
 	border: 1px solid black;
-	background: rgba(180, 181, 89, 0.73);
+	background: rgba(94, 138, 198, 1);
 }
 a.headerButtons{
 	float: right;
@@ -41,6 +41,9 @@ a.headerButtons{
 	margin-top: 10px;
 	border-top: 1px solid rgba(58, 32, 47, 0.73);
 }
+#backfonthead {
+	background: rgba(239, 245, 252, 0.67);
+}
 #subHeader p{
 	float: left;
 	margin-left: 0.5%;
@@ -54,41 +57,44 @@ a.headerButtons{
 	float: right;
 	font-weight: normal;
 	text-decoration: none;
+	color: rgba(0, 168, 236, 0.67);
 }
 #navigation{
-	margin-top: 20px;
+	margin-top: 1%;
 	height: 40px;
 	width: 80%;
 }
 #navigation ul{
 	list-style: none;
 }
-#navigation ul li a:link{
+#navigation ul li a{
 	float: left;
 	display: block;
 	text-decoration: none;
-	line-height: 40px;
+	line-height: 35px;
 	padding: 0% 10%;
-	border: 1px solid rgba(82, 122, 255, 0.73);
+	border: 1px solid rgba(156, 157, 158, 1);
 	margin-left: 20px;
-	border-radius: 20px;
-	background: rgba(205, 255, 220, 0.73);
+	border-radius: 8px;
+	color: rgba(156, 157, 158, 1);;
 }
 #navigation ul li a:hover{
-	float: left;
-	display: block;
-	text-decoration: none;
-	line-height: 40px;
-	padding: 0% 10%;
-	border: 1px solid rgba(82, 122, 255, 0.73);
-	margin-left: 20px;
-	border-radius: 20px;
-	background: rgba(89, 2, 23, 0.63);
+	border: 2px solid rgba(94, 138, 198, 1);
+	color: rgba(94, 138, 198, 1);
+	font-weight: 600;
+}
+.tablepos {
+	margin-left: 10%;
 }
 #tableWrap{
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 1%;
 	width: 800px;
+	color: rgba(101, 96, 96, 1);
+}
+#table{
+	margin: auto;
+	width: 100%;
 }
 #tableHeader h1{
 	float: left;
@@ -102,21 +108,22 @@ a.headerButtons{
 	font-size: 90%;
 	text-align: center;
 	font-weight: normal;
-	border-top: 1px solid rgba(88, 89, 67, 0.63);
+	border-top: 1px solid black;
 }
-}
-#table{
-	margin: auto;
-	width: 808px;
 }
 .hr{
 	width: 100%;
 	height: 1px;
 }
-#bottomButtons{
-	width: 430px;
+#mainButt{
 	margin: auto;
-	margin-top: 20px;
+	width: 100%;
+	margin-left: 7%;
+}
+#bottomButtons{
+	margin: auto;
+	width: 48%;
+	margin-top: 1%;
 }
 a.button{
 	display: block;
@@ -125,10 +132,14 @@ a.button{
 	line-height: 35px;
 	font-size: 20px;
 	padding: 0 15px;
-	border: 1px solid black;
-	margin-left: 20px;
-	background: rgba(16, 20, 89, 0.63);
+	margin-left: 5%;
+	color: rgba(156, 157, 158, 1);
 	border-radius: 50px;
+	cursor: pointer;
+}
+a.button:hover{
+	color: rgba(94, 138, 198, 1);
+	font-weight: 600;
 }
 input[name='check']{
 	width: 18px;
@@ -170,16 +181,19 @@ input[name='sbm']{
 .headerButtons{
 	margin-left: 20px;
 	border: 2px solid rgba(138, 21, 80, 0.44);
-	background: rgba(59, 110, 127, 0.44)
+	background: rgba(147, 169, 213, 1);
+}
+.headerButtons:hover{
+	background: rgba(47, 103, 180, 1);
 }
 #editButt{
 	margin: auto;
-	width: 800px;
+	width: 100%;
+	margin-left: 7%;
 }
 #editButtons{
 	margin: auto;
-	width: 600px;
-	margin-top: 20px;
+	width: 50%;
 }
 #editButtons a{
 	margin: auto;

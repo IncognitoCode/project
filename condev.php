@@ -9,6 +9,7 @@
 		<script src="js/tblActions.js"></script>
 	</head>
 	<body>
+	<div id="backfonthead">
 		<div id="header">
 			<div id="logo"></div>
 			<a class="headerButtons" href="settings.php">Device Settings</a>
@@ -19,6 +20,7 @@
 			<p>01:23:45:67:89:AB &nbsp; &nbsp; &nbsp; IP: 192.168.1.12</p>
 			<h6>alexk &nbsp; &nbsp; | &nbsp; &nbsp; <a href="index.php">Logout</a></h6>
 		</div>
+	</div>	
 		<div class="clr"></div>
 		<div id="navigation">
 			<ul>
@@ -28,7 +30,8 @@
 			</ul>
 		</div>
 		<div class="clr"></div>
-		<div id="tableWrap">
+		<div class="tablepos">
+			<div id="tableWrap">
 			<div id="table">
 				<div id="tableHeader">
 					<h1 style="width: 20px">#</h1>
@@ -75,11 +78,12 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		<div id="mainButt">
 			<div id="bottomButtons">
 				<a onclick="addNewDevice(1)" class="button">New Device</a>
 				<a onclick="editTable(true)" class="button">Edit</a>
-				<a href="" class="button">Monitor Values</a>
+				<a class="button">Monitor Values</a>
 				<div class="clr"></div>
 			</div>
 		</div>

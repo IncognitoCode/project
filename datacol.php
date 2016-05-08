@@ -16,7 +16,7 @@
 		<div class="clr"></div>
 		<div id="subHeader">
 			<p>01:23:45:67:89:AB &nbsp; &nbsp; &nbsp; IP: 192.168.1.12</p>
-			<h6>alexk &nbsp; &nbsp; | &nbsp; &nbsp; <a href="">Logout</a></h6>
+			<h6>alexk &nbsp; &nbsp; | &nbsp; &nbsp; <a href="index.php">Logout</a></h6>
 		</div>
 		<div class="clr"></div>
 		<div id="navigation">
@@ -26,7 +26,8 @@
 				<li><a href="datacol.php">Data Collection</a></li>
 			</ul>
 		</div>
-		<div id="tableWrap" style="height: 164px">
+		<div class="tablepos">
+		<div id="tableWrap">
 			<div id="table">
 				<div id="tableHeader">
 					<h1 style="width: 20px">#</h1>
@@ -43,6 +44,7 @@
 					<? include('phplib/displays/dataColEdit.php'); ?>
 				</div>
 			</div>
+		</div>
 		</div>
 		<div id="mainButt">
 			<div id="bottomButtons">
